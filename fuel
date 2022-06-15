@@ -1,0 +1,38 @@
+Lets look at the class definition of Pump
+class Pump:
+  #constructor
+  def __init__(self,ID, fuelBalance):
+    self.ID = ID
+    self.fuelBalance = fuelBalance
+    self.fuelDispensed = 0
+  #to check fuelBalance
+  def showBalanceFuel(self):
+    return self.fuelBalance
+  #to update fuel balance and fuel dispensed
+  def __str__(self):
+    return "ID:" + self.ID + str(self.fuelBalance)
+
+  def pourFuel(self,amount):
+    if amount < self.fuelBalance :
+      self.fuelDispensed += amount
+      self.fuelBalance -=amount
+    else:
+      # if the amount exceeds the balance raise an error
+      raise AssertionError
+The driver code to test the class
+pumpA = Pump("firstPump",100)
+pumpB = Pump("secondPump",500)
+pumpC = Pump("thirdPump",300)
+print("Pump A balance fuel",pumpA.showBalanceFuel())
+print("Pump B balance fuel",pumpB.showBalanceFuel())
+print("Pump C balance fuel",pumpC.showBalanceFuel())
+try:
+  for cap in [20,10,300]:
+    pumpA.pourFuel(cap)
+    pumpB.pourFuel(cap)
+    pumpC.pourFuel(cap)
+except AssertionError:
+  print("exceeds fuel balance")
+print(pumpA)
+print(pumpB)
+print(pump
