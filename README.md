@@ -2,10 +2,7 @@
 Full stack dev
 PYTHON AND PHP
 
- <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Landris18&theme=leafy&date_format=j%20M%5B%20Y%5D&ring=047884&sideNums=06ACBD&dates=06ACBD&currStreakNum=08E8FF&currStreakLabel=08E8FF&background=ffffff00&hide_border=true" alt="GitHub Stats" /> <br/><br/>
 
-[![linkeldn]https://resume.io/r/VT3oejgRp?fbclid=IwAR2aA229PUw-ot7J5Ge6Kt-oAMEg6pYwFIjLlPh4pBwNKbFNvwoDQVvWsjY)
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -18,3 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DenverCoder1)](https://git.io/streak-stats)
+ 
+[![linkeldn]https://resume.io/r/VT3oejgRp?fbclid=IwAR2aA229PUw-ot7J5Ge6Kt-oAMEg6pYwFIjLlPh4pBwNKbFNvwoDQVvWsjY) Here are some ideas to get you started:
